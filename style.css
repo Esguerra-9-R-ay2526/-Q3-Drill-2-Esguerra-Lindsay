@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;   /* centers horizontally */
+  align-items: center;       /* centers vertically */
+  height: 100vh;             /* full viewport height */
+  margin: 0;
+  background-image: url(https://i.pinimg.com/1200x/90/db/a2/90dba228d8b585ceb5fe9ce2964d9220.jpg);
+  background-size: cover;
+  background-position: center;
+height: auto;
+}
+
+.container {
+  display: inline-block;     /* makes the box fit around the text */
+  padding: 15px 25px;        /* space inside the box */
+  border: 2px solid #9b6e9b;    /* border around the box */
+  border-radius: 10px;       /* rounded corners */
+  background-color: ivory; /* box color */
+  text-align: center;        /* centers the text inside */
+}
+
+.calculator button {
+  padding: 12px 20px;
+  font-size: ;
+  border-radius: 0;
+  border: none;
+  background-color: #4CAF50; /* green */
+  color: white;              /* text color */
+  cursor: pointer;
+}
+
+.calculator button:hover {
+  background-color: #45a049; /* darker green when hovered */
+}
+
+.refresh button {
+  padding: 12px 20px;
+  font-size:;
+  border-radius: 0;
+  border: none;
+  background-color: #bc3636; /* green */
+  color: white;              /* text color */
+  cursor: pointer;
+}
+
+.refresh button:hover {
+  background-color: #bc3636; /* darker green when hovered */
+}
